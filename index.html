@@ -8,11 +8,20 @@
  <link rel="stylesheet" type="text/css" href="./assets/css/site.css">
 
 </head>
+
 <body>
+
   <header class="container-fluid">
-    <div class="row">
-      <div class="col-md-12" style="background:lightblue">
-        <h2>Patients List</h2>
+    <div class="row navbar navbar-default">
+      <div class="navbar-header">
+        <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+          <span class="glyphicon glyphicon-chevron-down "></span>
+           </button>
+           <div id="logo">
+             <a href=".">
+                <h1>Patients List<small> Pattiens appoiments</small></h1>
+             </a>
+           </div>
       </div>
     </div>
   </header>
@@ -92,7 +101,7 @@
           </li>
         </ul>
 
-        <div class="tab-content">
+        <div class="tab-content" >
           <div class="tab-pane active" id="confirmed">
             <table class=" table table-hover">
               <tr>
@@ -100,7 +109,7 @@
                 <th>Speciality area</th>
                 <th>Apploiment</th>
               </tr>
-
+              
               <tr>
 
                <td>John doe</td>
